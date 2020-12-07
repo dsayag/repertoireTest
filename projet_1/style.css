@@ -119,7 +119,7 @@ h1, h2, h3 {
     text-align: left;
 }
 
-section.contact hr {
+section.contact hr, section.language hr, section.prof-skills hr {
     height: 1px;
     margin: 0;
     padding: 0;
