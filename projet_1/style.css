@@ -1,0 +1,194 @@
+*{
+    border: none;
+}
+
+body{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+p{
+    font-size: 11px;
+    line-height: 13px;
+    padding: 0 20px;
+}
+
+.main {
+    width: 900px;
+    height: 900px;
+    display: flex;
+}
+
+.partieG
+{
+    display:inline-block;
+    background-color: #4a4a4c;
+    width:250px;
+    height:895px;
+    vertical-align: top;
+}
+
+.partieD
+{
+    display:inline-block;
+    background-color:#f8f8f8;
+    width:645px;
+    height:895px;
+}
+
+header {
+    width:630px;
+    height:120px;
+    margin:0;
+    padding:100px 0 0 20px;
+}
+
+.logo {
+    border-radius: 50%;
+    border: 10px solid white;
+    filter: grayscale(100%);
+    margin:20px 0 0 20px;
+    padding:0px;
+    }
+
+h1{
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    }
+
+h1 span{
+    color: #11a9f3;
+    }
+
+h2 {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+h3{    
+    font-size: 22px;
+    line-height: 26px;
+    padding:0 0 0 20px;
+    margin:0;
+    }
+
+h3 span {
+    color: #fff;
+    }
+
+h4{
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 0 0 20px;
+    margin: 0;
+    color:#11a9f3;
+    }
+
+h5{
+    font-variant-caps: small-caps;
+    font-size: 16px;
+    line-height: 18px;
+    padding:10px 0 10px 0px;
+    margin: 0;
+    }
+
+h5 span {
+    color: #fff;
+    }
+
+h1, h2, h3 {
+    font-variant-caps: small-caps;
+    color: #000;
+    text-align: left;
+}
+
+section.contact hr {
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1;
+    width: 95%;
+}
+
+ul{
+    margin:0;
+    padding: 10px 0 0 0;
+    list-style-type: none;
+    line-height: 20px;
+}
+
+.ul-left{
+    display:inline-block;
+    width:100px;
+    list-style-type: none;
+}
+
+.ul-right{
+    display:inline-block;
+    width:100px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.contact {
+    font-weight: normal;
+    color: #fff;
+    margin: 10px 0 0 10px;
+}
+.prof-skills {
+    font-weight: normal;
+    color: #fff;
+    margin: 10px 0 0 10px;
+}
+.language {
+    font-weight: normal;
+    color: #fff;
+    margin: 10px 0 0 10px;
+}
+
+section hr {
+    height: 1px;
+    padding: 0;
+    background-color: #4a4a4c;
+    border: 1;
+    width: 95%;
+    margin-bottom:10px;
+}
+
+i {
+    width: 10px;
+    height: 10px;
+}
+
+.icon-bleu{
+    background-color: white;
+    color: #11a9f3;
+    padding:3px;
+    border-radius: 20% 10%;
+}
+
+.icon-blc{
+    background-color: #11a9f3;
+    color: white;
+    padding:3px;
+    border-radius: 20% 10%;
+}
+
