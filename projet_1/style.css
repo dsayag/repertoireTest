@@ -7,6 +7,7 @@ body{
     font-family: Roboto, sans-serif;
     font-size: 11px;
     line-height: 13px;
+    color: #000;
 }
 
 a{
@@ -84,10 +85,9 @@ h2 {
 }
 
 h3{    
-    font-size: 22px;
-    line-height: 26px;
-    padding:0 0 0 20px;
-    margin:0;
+    font-size: 24px;
+    padding:0;
+    margin:8px 0 0 10px;
     }
 
 h3 span {
@@ -114,10 +114,13 @@ h5 span {
     color: #fff;
     }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-variant-caps: small-caps;
-    color: #000;
     text-align: left;
+}
+
+h1, h2, h3{
+    color: #000;
 }
 
 section.contact hr, section.language hr, section.prof-skills hr {
@@ -149,11 +152,43 @@ ul{
     text-align: right;
 }
 
+.titreG{
+    width:200px;
+    height: 40px;
+    padding:0 0 0 20px;
+    margin:0;
+    display: flex;
+}
+
+section .titreG i {
+    display: inline-block;
+    background-color: #11a9f3;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 5px 10px 10px 5px;
+    margin: 0;
+    color: #fff;
+    width:15px;
+    height:15px;
+}
+
+section .titreG i h3 {
+    display: inline-block;
+}
+
+section .language li span {
+    color:#11a9f3;
+}
+
 .contact {
     font-weight: normal;
     color: #fff;
     margin: 10px 0 0 10px;
 }
+
 .prof-skills {
     font-weight: normal;
     color: #fff;
